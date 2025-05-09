@@ -3,7 +3,7 @@
 # print(a)
 # print(type(a))
 
-# ## Taking multiple function in one line by using split() method:
+# ## Taking multiple input in one line by using split() method:
 # x, y = input("Enter two values: ").split()
 # print(x)
 # print(y)
@@ -33,7 +33,8 @@ print(x)
 
 
 # # taking multiple inputs at a time separated by comma
-x = [int(x) for x in input("Enter multiple value: ").split(",")]
+# x = [int(x) for x in input("Enter multiple value: ").split(",")]
+x = [x for x in int(input("Enter multiple value: ")).split(",")]
 print("List is: ", x)
 
 
