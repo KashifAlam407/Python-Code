@@ -1,4 +1,8 @@
+result = {}
+for num in range(1, 13):
+    if num % 3 == 0:
+        result[num] = num ** 3
+    elif num % 4 == 0:
+        result[num] = num ** 2
 
-list = ["geeks", "for", "geeks"]
-for index in range(len(list)):
-    print([index])
+print(result)
