@@ -31,3 +31,26 @@ print("Thanks for playing this game")
 #     print(f"Your input resulted in an error: {e}")
 
 # print("Thanks for playing this game")
+
+
+try: 
+    # x = 10/2
+    x = 10/0
+    print(x)
+
+except Exception as e:
+    print(f"An error occurred: {e}") 
+    print(e)
+    print("Type of error:", type(e))
+    print("Type of error:", type(e).__name__)
+    # print("Zero Division Error")
+
+else:
+    print("No error occurred, this is the else block")
+
+finally:
+    print("This is the finally block, it always executes")
+
+
+
+### 

@@ -1,4 +1,8 @@
-noprimes = [j for i in range(2, 50) for j in range(i*2, 50, i)]  
-primes = [x for x in range(2, 50) if x not in noprimes]  
-print (primes)  
-print(noprimes)
+try: 
+    # x = 10/2
+    x = 10/0
+    print(x)
+
+except Exception as e:
+    print(f"An error occurred: {e}") 
+    print(e)
